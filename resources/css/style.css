@@ -129,7 +129,7 @@ ion-icon {
 
 .btn:hover,
 .btn:active {
-    background-color: #c5b30f;
+    background-color: #c5a40f;
 }
 
 .btn-full:hover,
@@ -174,7 +174,7 @@ ion-icon {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #e6d922;
+    border-bottom: 2px solid #d4a300;
 }
 
 section {
