@@ -1,3 +1,18 @@
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '.splide', {
+    cover     : true,
+    perPage   : 1,
+	  height    : '10rem',
+  } ).mount();
+} );
+
+
+
+
+
+
+// ------------JQUERY
+
 $(document).ready(function(){
 	$('.js--section-features').waypoint(function(direction){
 
