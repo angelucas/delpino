@@ -126,8 +126,9 @@ h2:after {
 
 .long-copy {
   line-height:145%;
-  width: 90%; /*ocupa 70%, sobra 30%*/
-  margin: 0 10% 0 5%; /*15% para cada lado*/
+  width: 90%; 
+  margin: 0 10% 0 5%;
+  text-align: center;
 }
 /*--------------------------------------------------------------
 # Header
@@ -1493,7 +1494,8 @@ cite img {
 
 #footer .footer-top .social-links a {
   display: inline-block;
-  background: #222636;
+  border: 1px solid #e67e22;
+  
   color: #eee;
   line-height: 1;
   margin-right: 4px;
@@ -1514,6 +1516,10 @@ cite img {
 #footer .footer-top .social-links a:hover {
   background: #e67e22;
   color: #fff;
+}
+
+#footer h3 {
+  color: white;
 }
 
 #footer .footer-top h4 {
