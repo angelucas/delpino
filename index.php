@@ -15,6 +15,9 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Felipa&display=swap" rel="stylesheet">
+
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -42,10 +45,10 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto" href="#meeting">Encontros</a></li>
-          <li><a class="nav-link scrollto" href="#origin">Origem</a></li>
+          <li><a class="nav-link scrollto" href="#venue">Encontros</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">Origem</a></li>
           <li><a class="nav-link scrollto" href="#schedule">História</a></li>
-          <li><a class="nav-link scrollto" href="#tradition">Tradição</a></li>
+          <li><a class="nav-link scrollto" href="#subscribe">Poema</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -65,12 +68,13 @@
     
     <!-- ======= MAIN ======= -->
     <main id="main">
+    <br><br>
       <!-- ======= Schedule Section ======= -->
       <section id="schedule" class="section-with-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <br><br>
-            <h2>História:<br> Origem da linhagem,<br> tradição e luta</h2>
+            <h2>História: Origem da linhagem, tradição e luta</h2>
           </div>
           <p class="long-copy">
             São lembranças das fotografias que estão guardadas com muito amor. Momentos felizes foram registrados.
@@ -83,6 +87,53 @@
           </p>
         </div>
       </section><!-- End Schedule Section -->
+      <!-- ======= Pictures Section ======= -->
+      <section class="section-photos">
+        <div class="d-flex align-items-center" data-aos="zoom-in">
+          <ul class="images-showcase clearfix">
+              <li>
+                  <figure class="photo">
+                      <img src="assets/img/photo1.jpg" alt="">
+                  </figure>
+              </li>
+              <li>
+                  <figure class="photo">
+                      <img src="assets/img/photo2.jpg" alt="">
+                  </figure>
+              </li>
+              <li>
+                  <figure class="photo">
+                      <img src="assets/img/photo3.jpg" alt="">
+                  </figure>
+              </li>
+              <li>
+                  <figure class="photo">
+                      <img src="assets/img/photo4.jpg" alt="">
+                  </figure>
+              </li>
+              <li>
+                  <figure class="photo">
+                      <img src="assets/img/photo5.jpg" alt="">
+                  </figure>
+              </li>
+              <li>
+                  <figure class="photo">
+                      <img src="assets/img/photo6.jpg" alt="">
+                  </figure>
+              </li>
+              <li>
+                  <figure class="photo">
+                      <img src="assets/img/photo7.jpg" alt="">
+                  </figure>
+              </li>
+              <li>
+                  <figure class="photo">
+                      <img src="assets/img/photo8.jpg" alt="">
+                  </figure>
+              </li>
+          </ul>
+        </div>
+    </section><!-- ======= End Pictures Section ======= -->
 
       <!-- ======= Venue Section ======= -->
       <section id="venue">
@@ -159,6 +210,7 @@
                   Pino, morto em 1804.<br>
                   Brasão de armas: Em um pátio verde, um leão vermelho bravo, diante de uma árvore do protetor.
               </p>
+              <br><br><br>
             </div>
         </section><!-- End Speakers Section -->
 
@@ -219,55 +271,7 @@
                     Novidade, história antiga, conto, resenha e poesia.</p>
             </div>
         </div> -->
-
-    <!-- <section class="section-photos">
-        <ul class="images-showcase clearfix">
-            <li>
-                <figure class="photo">
-                    <img src="resources/img/photo1.jpg" alt="">
-                </figure>
-            </li>
-            <li>
-                <figure class="photo">
-                    <img src="resources/img/photo2.jpg" alt="">
-                </figure>
-            </li>
-            <li>
-                <figure class="photo">
-                    <img src="resources/img/photo3.jpg" alt="">
-                </figure>
-            </li>
-            <li>
-                <figure class="photo">
-                    <img src="resources/img/photo4.jpg" alt="">
-                </figure>
-            </li>
-        </ul>
-        <ul class="images-showcase">
-            <li>
-                <figure class="photo">
-                    <img src="resources/img/photo5.jpg" alt="">
-                </figure>
-            </li>
-            <li>
-                <figure class="photo">
-                    <img src="resources/img/photo6.jpg" alt="">
-                </figure>
-            </li>
-            <li>
-                <figure class="photo">
-                    <img src="resources/img/photo7.jpg" alt="">
-                </figure>
-            </li>
-            <li>
-                <figure class="photo">
-                    <img src="resources/img/photo8.jpg" alt="">
-                </figure>
-            </li>
-        </ul>
-    </section> -->
     
-
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="footer-top">
