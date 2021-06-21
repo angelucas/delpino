@@ -59,7 +59,7 @@
     <section id="hero">
         <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
             <h1 class="mb-4 pb-0 animate__animated animate__fadeInDown">Família <span>Del Pino</span></h1>
-            <h1 class="mb-4 pb-0 animate__animated animate__fadeInUp">Tradição e coragem</h1>
+            <h1 class="mb-4 pb-0 animate__animated animate__fadeInUp" id="tradicao">Tradição e coragem</h1>
             <a href="#venue" class="btn-menu animate__animated animate__fadeInDown scrollto">Álbum de fotos</a>
             <a href="#schedule" class="btn-book animate__animated animate__fadeInUp scrollto">Nossa História</a>
         </div>
