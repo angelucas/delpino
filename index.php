@@ -35,14 +35,14 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
-        <a href="index.html">
+        <a href="index.php">
           <img src="assets/img/brasao-logo1.png" alt="Del Pino" class="img-fluid">
         </a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#meeting">Encontros</a></li>
+          <li><a class="nav-link scrollto" href="#meeting">Encontros</a></li>
           <li><a class="nav-link scrollto" href="#origin">Origem</a></li>
           <li><a class="nav-link scrollto" href="#schedule">História</a></li>
           <li><a class="nav-link scrollto" href="#tradition">Tradição</a></li>
@@ -91,11 +91,11 @@
               <h2>Galeria de Fotos</h2>
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <ul id="portfolio-flters">
-                  <li data-filter=".ano2005" id="clickOnLoad">2005</li>
+                  <li data-filter=".ano2005">2005</li>
                   <li data-filter=".ano2006">2006</li>
                   <li data-filter=".ano2007">2007</li>
                   <li data-filter=".ano2009">2009</li>
-                  <li data-filter=".ano2010">2010</li>
+                  <li data-filter=".ano2010" id="activeOption">2010</li>
                 </ul>
               </div>
             </div>
@@ -110,19 +110,18 @@
                                 "assets/img/ano2010");
                 foreach($dirArr as $dir)
                 {
-                    $images = glob($dir . "/*.jpg");
-                    $folder = str_replace("assets/img/", "", $dir);
-                    
-                    foreach($images as $image)
-                    {
-                      echo '<div class="col-lg-3 col-md-4 portfolio-item '.$folder.'">
-                              <div class="venue-gallery">
-                                <a href="'.$image.'" class="glightbox" data-gall="venue-gallery">
-                                  <img src="'.$image.'" alt="" class="img-fluid">
-                                </a>
-                              </div>
-                            </div>';
-                    } 
+                  $images = glob($dir . "/*");
+                  $folder = str_replace("assets/img/", "", $dir);
+                  foreach($images as $image)
+                  {
+                    echo '<div class="col-lg-2 col-md-4 portfolio-item '.$folder.'">
+                            <div class="venue-gallery">
+                              <a href="'.$image.'" class="glightbox" data-gall="venue-gallery">
+                                <img src="'.$image.'" alt="" class="img-fluid">
+                              </a>
+                            </div>
+                          </div>';
+                  } 
                 }          
               ?>
             </div>
@@ -160,9 +159,6 @@
                   Pino, morto em 1804.<br>
                   Brasão de armas: Em um pátio verde, um leão vermelho bravo, diante de uma árvore do protetor.
               </p>
-                <div class="row">
-                    
-                </div>
             </div>
         </section><!-- End Speakers Section -->
 
@@ -311,10 +307,7 @@
     <script>
       window.onload = function()
       {
-        var clique2005 = document.getElementById("clickOnLoad").click();
-
-        // var id = document.getElementById("testCandido");
-        //     id.setAttribute("data-aos", "zoom-out");
+        document.getElementById("activeOption").click();
       };
     </script>
 </body>
