@@ -23,10 +23,6 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  
-}
-
 h2:after {
   display: block;
   height: 2px;
@@ -425,8 +421,9 @@ h2:after {
   width: 100%;
   height: 100vh;
   background: top center;
-  background-image: -o-radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url(../img/horizon.jpg);
-  background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url(../img/horizon.jpg);
+  background-image: url(../img/horizon.jpg);
+  /* background-image: -o-radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url(../img/horizon.jpg);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url(../img/horizon.jpg); */
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1195,9 +1192,10 @@ section {
 --------------------------------------------------------------*/
 #subscribe {
   padding: 60px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/forest1.jpg);
+  /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/forest1.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/forest1.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/forest1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/forest1.jpg); */
+  background-image: url(../img/forest1.jpg);
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1228,9 +1226,9 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .section-testimonials {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/forest1.jpg);
+  /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/forest1.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/forest1.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/forest1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/forest1.jpg); */
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
