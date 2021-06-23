@@ -6,8 +6,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Família Del Pino</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="Albúm de fotos família Del pino">
+  <meta name="keywords" content="Familia, Del Pino, Cândido Acauan Nery, fotos, família">
+  <meta name="author" content="Lucas Machado Angelo">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
