@@ -513,19 +513,60 @@ h2:after {
   }
 }
 
+@media (max-width: 1400px) {
+  #hero .hero-container {
+    margin-top: 2%;
+    margin-left: 16%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #hero p {
+    font-size: 16px;
+  }
+
+  #hero .hero-container {
+    margin-top: 2%;
+    margin-left: 20%;
+  }
+
+  #hero h1 {
+    font-weight: 500;
+    font-size: 46px;
+  }
+
+  #hero .btn-menu, #hero .btn-book {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display:inline-flex;
+    padding: 12px 16px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 0px 10px 0 -2px;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    color: #fff;
+    border: 2px solid #ffb03b;
+  }
+}
+
 @media (max-width: 991px) {
   #hero p {
     font-size: 16px;
   }
 
   #hero .hero-container {
-    margin-top: 400px;
-    margin-left: 400px;
+    margin-top: 4%;
+    margin-left: 0%;
+    text-align: center;
   }
 
   #hero h1 {
-    font-weight: 600;
-    font-size: 34px;
+    font-weight: 500;
+    font-size: 40px;
   }
 
   #hero .btn-menu, #hero .btn-book {
@@ -550,15 +591,11 @@ h2:after {
   }
 
   #hero #tradicao {
-    display: none;
+    display: block;
   }
 }
 
 @media (max-width: 768px) {
-  #hero p {
-    font-size: 16px;
-  }
-
   #hero .hero-container {
     margin-top: 3%;
     margin-left: 0%;
@@ -566,13 +603,13 @@ h2:after {
   }
 
   #hero h1 {
-    font-weight: 600;
-    font-size: 58px;
+    font-weight: 500;
+    font-size: 40px;
   }
 
   #hero .btn-menu, #hero .btn-book {
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
     display:-webkit-inline-box;
@@ -608,7 +645,7 @@ h2:after {
   }
 
   #hero h1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size:36px;
   }
 
@@ -650,7 +687,7 @@ h2:after {
   }
 
   #hero h1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size:30px;
   }
 
@@ -687,7 +724,7 @@ h2:after {
   }
 
   #hero h1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
   }
 
@@ -726,7 +763,7 @@ h2:after {
   }
 
   #hero h1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 34px;
   }
 
@@ -765,7 +802,7 @@ h2:after {
   }
 
   #hero h1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 30px;
   }
 
